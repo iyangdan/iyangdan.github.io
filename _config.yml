@@ -1,0 +1,50 @@
+title: ihainan's Blog
+description: My Personal Blog
+author: ihainan
+github: https://github.com/ihainan
+about: I am a developer at IBM, currently IBM Machine Learning for z/OS platform.
+disqus_shortname: ihainan
+google_analytics: UA-41187412-2
+avatar_url: /static/img/avatar.jpg
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-twitter
+      link: "https://twitter.com/ihainan"
+    - icon: fa-stack-exchange
+      link: "https://stackoverflow.com/users/2122077/ihainan"
+    - icon: fa-github
+      link: "https://github.com/ihainan"
+    - icon: fa-weibo
+      link: "http://weibo.com/ihainan"
+share:
+  twitter_username: ihainan
+  fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://www.ihainan.me"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
